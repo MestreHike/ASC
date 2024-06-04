@@ -7,10 +7,9 @@ Serapheim (anjos)
 Mystara (arcano)
 Terra (mortal)
 
-criar database
-
+criar database feito
 colocar detalhe sobre os mundos
-escrever a historia do mundo
+escrever a historia do mundo feito
 colocar os reinos
 colocar alguns vilarejos (30)
 colocar as masmorras
