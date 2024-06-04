@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b2f;
+    color: #e4e4e4; /* Texto Principal */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 12px;
+    border-bottom: 2px solid #303c6c; /* Bordas e Divisores */
+    background-color: #162447; /* Fundo Secundário */
+    color: #d4af37; /* Acentos */
+    text-align: center;
+}
+
+footer {
+    padding: 6px;
+    border-top: 2px solid #303c6c; /* Bordas e Divisores */
+    background-color: #162447; /* Fundo Secundário */
+    color: #aaaaaa; /* Texto Secundário */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+nav {
+    width: 200px;
+    background-color: #222b4d; /* Background Alternativo */
+    padding: 20px;
+    border: 5px solid #1a213b; /* Bordas e Divisores */
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    align-self: flex-start; /* Alinha o nav ao início do container */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00a8cc; /* Elementos de Suporte */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Adiciona a transição de cor */
+}
+
+nav ul li a:hover {
+    color: #ff9a3c; /* Hover e Foco */
+}
+
+#blocos-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    gap: 20px;
+    background-color: transparent; /* Remove o fundo */
+    padding: 0;
+}
+
+main {
+    flex: 1;
+    background-color: #2e3a59; /* Background Alternativo */
+    color: #e4e4e4; /* Texto Principal */
+    border: 2px solid #303c6c; /* Bordas e Divisores */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 10px; /* Reduzir o espaçamento entre as seções */
+    text-align: left; /* Alinhar o texto à esquerda */
+}
+#blocos-container .bloco {
+    background-color: transparent; /* Remove o fundo dos blocos */
+    border: 2px solid #2a345e; /* Bordas dos blocos */
+    border-radius: 10px;
+    background-color: #2e3a59;
+    padding: 10px;
+    text-align: center;
+    width: 45%; /* Ajusta a largura dos blocos */
+    box-sizing: border-box;
+    position: relative;
+}
+
+#blocos-container .bloco img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+#blocos-container .bloco h2 {
+    margin: 10px 0;
+}
+
+#blocos-container .bloco .botao {
+    background-color: #00a8cc; /* Cor de fundo do botão */
+    color: #e4e4e4; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+}
+
+#blocos-container .bloco .botao:hover {
+    background-color: #ff9a3c; /* Cor de fundo do botão ao passar o mouse */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer b {
+    color: #e43f5a; /* Elementos de Destaque */
+}

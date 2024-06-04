@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #300000 0%, #8b0000 50%, #ff4500 100%); /* Gradiente de céu infernal a lava */
+    color: #e4e4e4; /* Texto Principal */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 12px;
+    border-bottom: 2px solid #ff4500; /* Bordas e Divisores */
+    background-color: #300000; /* Fundo Secundário */
+    color: #ff6347; /* Acentos */
+    text-align: center;
+}
+
+footer {
+    padding: 6px;
+    border-top: 2px solid #ff4500; /* Bordas e Divisores */
+    background-color: #300000; /* Fundo Secundário */
+    color: #ff6347; /* Texto Secundário */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+nav {
+    width: 200px;
+    background-color: #550000; /* Background Alternativo */
+    padding: 20px;
+    border: 5px solid #8b0000; /* Bordas e Divisores */
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    align-self: flex-start; /* Alinha o nav ao início do container */
+    position: sticky;
+    top: 20px; /* Ajusta a posição fixa relativa ao topo do container */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6347; /* Elementos de Suporte */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Adiciona a transição de cor */
+}
+
+nav ul li a:hover {
+    color: #ff4500; /* Hover e Foco */
+}
+
+#blocos-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+#blocos-container .bloco {
+    background-color: #8b0000; /* Fundo dos blocos */
+    border: 2px solid #ff4500; /* Bordas dos blocos */
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 45%; /* Ajusta a largura dos blocos */
+    box-sizing: border-box;
+    position: relative;
+}
+
+#blocos-container .bloco img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+#blocos-container .bloco h2 {
+    margin: 10px 0;
+    color: #ff6347;
+}
+
+#blocos-container .bloco .botao {
+    background-color: #ff4500; /* Cor de fundo do botão */
+    color: #e4e4e4; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+}
+
+#blocos-container .bloco .botao:hover {
+    background-color: #ff6347; /* Cor de fundo do botão ao passar o mouse */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer b {
+    color: #ff4500; /* Elementos de Destaque */
+}

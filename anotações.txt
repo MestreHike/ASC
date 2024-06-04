@@ -1,0 +1,17 @@
+Nome da campanha:
+    A Sombra do Cataclismo: O Legado do Selo
+
+nome dos reinos:
+Infernia (demoniaco)
+Serapheim (anjos)
+Mystara (arcano)
+Terra (mortal)
+
+criar database
+
+colocar detalhe sobre os mundos
+escrever a historia do mundo
+colocar os reinos
+colocar alguns vilarejos (30)
+colocar as masmorras
+colocar itens raros
